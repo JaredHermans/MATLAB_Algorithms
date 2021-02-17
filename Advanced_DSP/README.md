@@ -7,6 +7,6 @@ The AR and ARMA process models the statistics of a signal (variance ans spectrum
  
  **AR_ARMA_Process1.m** generates 1000 realizations of the narrowband Autoregressive Movinga Average (ARMA) process where coefficients for the transfer function H(z) are:\
                         A = [1 -1.6408 2.2044 -1.4808 0.8145]\
-                        B = [1 1.5857 0.9604]\
+                        B = [1 1.5857 0.9604] \
                         
 **Gaussian_White_Noise.m** generates a random signal using matlabs randn function and finds the PSD estimate by Periodogram. The periodogram is averaged over 1000 realizations to reduce variance. The program also demonstrates the Probability Density Function (PDF) of the randn function.
